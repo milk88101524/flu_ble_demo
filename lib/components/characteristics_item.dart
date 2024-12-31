@@ -87,7 +87,6 @@ class CharacteristicsItemView extends StatelessWidget {
 
 void showWriteCharacteristics(BuildContext context, Function(String) onWrite) {
   TextEditingController controller = TextEditingController();
-  controller.text = "P6954214202,1,1";
 
   showDialog(
     context: context,

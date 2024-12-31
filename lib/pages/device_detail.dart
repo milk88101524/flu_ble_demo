@@ -1,6 +1,6 @@
 import 'dart:async';
 import 'dart:io';
-import 'package:flu_ble_demo/componets/service_item.dart';
+import 'package:flu_ble_demo/components/service_item.dart';
 import 'package:flu_ble_demo/log_manager.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_blue_plus/flutter_blue_plus.dart';

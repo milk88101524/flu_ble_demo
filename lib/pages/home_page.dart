@@ -1,7 +1,7 @@
 import 'package:flu_ble_demo/bloc/ble_scan_bloc/ble_scan_bloc.dart';
 import 'package:flu_ble_demo/bloc/ble_scan_bloc/ble_scan_event.dart';
 import 'package:flu_ble_demo/bloc/ble_scan_bloc/ble_scan_state.dart';
-import 'package:flu_ble_demo/componets/device_item.dart';
+import 'package:flu_ble_demo/components/device_item.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

@@ -1,4 +1,4 @@
-import 'package:flu_ble_demo/componets/characteristics_item.dart';
+import 'package:flu_ble_demo/components/characteristics_item.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_blue_plus/flutter_blue_plus.dart';
 

@@ -119,11 +119,16 @@ class _DeviceDetailState extends State<DeviceDetail> {
                       SizedBox(height: 10),
                       ElevatedButton(
                         onPressed: () {
-                          if (widget.device.isConnected && Platform.isAndroid) {
-                            widget.device.requestMtu(
-                              int.parse(mtuController.text),
-                            );
+                          if (widget.device.isConnected &&
+                              Platform.isAndroid &&
+                              mtuController.text.isEmpty) {
+                            widget.device
+                                .requestMtu(int.parse(mtuController.text));
                           }
+                          setState(() {
+                            LogManager.addLog("MTU: ${widget.device.mtuNow}");
+                          });
+                          focusNode.unfocus();
                         },
                         child: Text("Set"),
                       ),
